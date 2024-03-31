@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-------welcome notes-->
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Welcome Notes</h2>
+            <p>Welcome to our Age Calculator! This tool allows you to calculate your age based on your birthdate and compare it with any date you choose. It's simple and easy to use.</p>
+            <p>Start by entering your name, your birthdate, and the date you want to compare your age with in the form provided below.</p>
+            <p>Click anywhere outside this box or press the close button to begin.</p>
+        </div>
+    </div>
+    <div class="topnav">
+        <h1 class="title">Age Calculator</h1>
+    </div>
+    <!-- Left side navbar -->
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul id="addItemsList">
+            <li><h4>Add Item</h4></li>
+            <ul class="todo-list" id="todoList">
+            </ul>
+        </ul>
+    </div>
+
+    <div class="container">
+        <form id="todoForm">
+            <div><h4> Type your name : </h4></div>
+            <input type="text" id="todoInput" placeholder="name here..">
+            <div><h4> Select Your Date Of Birth: </h4></div>
+            <input type="date" id="birthdate" placeholder="Your Birthdate">
+            <div><h4> Select The Date To Compare Your Age With:  </h4></div>
+            <input type="date" id="currentDate" placeholder="Current date"> <!-- Changed id to currentDate -->
+            <button type="submit">submit</button>
+        </form>
+        
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <h4> Made by kalai❤️</h4>
+        <h5>@2026 - All rights reserved.</h5> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
